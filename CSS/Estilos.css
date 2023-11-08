@@ -1,0 +1,261 @@
+/*Tipografia*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Libre+Baskerville&family=Merriweather:wght@300&display=swap');
+font-family: 'DM Serif Display', serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Merriweather', serif;
+
+body{font-family: 'Merriweather', serif;}
+
+/*Quitar bordes generados en la pagina*/
+*{margin:0; 
+padding:0;
+box-sizing: border-box;} 
+
+/*Encabezado del sitio*/
+header{height:1.4cm;
+    background-color: #4c9acc;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;}
+
+/*Logodelapagina*/
+.banderagrecia{background-image: url(../imagenes/banderagrecia.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1.1cm;
+    width: 2cm;
+    margin-left: 80px;}
+
+/*Color y posicion menu de navegacion*/
+nav{width: 70%}
+
+nav a{color:black;
+    text-decoration: none;}
+
+ul{list-style:none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 60px;}
+
+/*footer*/
+footer{background-color: blue;
+    height: 25px;
+    display: flex;
+    justify-content: center;}
+
+.footersantorini{text-decoration: none;
+    color:aliceblue;}
+
+.footerfooter{padding-top: 2.5px;}
+    
+.fotosantorini{background-image: url(../imagenes/arquitectura-oia-santorini.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0;
+    height: 440px;
+    width: 100%;} 
+
+.videosantorini{margin-top: 10px; margin-bottom: 10px; margin-left: 300px;}
+.mapasantorini{margin-bottom: 10px; margin-left: 120px;}
+
+/*Fotos comidas*/
+.dolmas{margin-left: 0cm;
+    width: 200px;
+    height: 400px;}
+
+.dolmas1{list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;} 
+
+.humus{margin-right: 0cm;
+    margin-left: 0cm;
+    width: 450px;
+    height: 400px;}
+
+.humus1{list-style: none;
+     display: flex;
+    flex-direction: column;
+    text-align: center;}
+
+.kofta{
+    width: 400px;
+    height: 400px;}
+    
+.kofta1{list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;}  
+
+.gridcomidas img{height: 100%;
+        width: 100%;}
+    
+.gridcomidas{display: grid;
+    grid-template-areas: 
+    "img1    img2    img3"
+    "texto1  texto2  texto3";
+    grid-template-columns: 0,33% 0,33% 0,33%;
+    grid-template-rows: 315px 150px 300px;}
+    
+.Dolmas{grid-area: img1;}
+.Dolmas1{grid-area: texto1;}
+    
+.humus{grid-area: img2;}
+.humus1{grid-area: texto2;}
+
+.kofta{grid-area: img3;}
+.kofta1{grid-area: texto3;}
+
+/*Video y fotos de historia*/
+
+.historia1{margin-left: 2cm;
+    width: 400px;
+    height: 300px;}
+
+.historia2{
+    margin-right: 2cm;
+    margin-left: 2cm;
+    width: 400px;
+    height: 300px;}
+
+.historia3{width: 400px;
+    height: 300px;}
+
+/*Hoteles santorini*/
+
+.hoteltop{margin-top: 10px; margin-bottom: 10px;}
+
+.asha{
+    width: 440px;
+    height: 315px;}
+
+.hotel1{list-style:none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 0px;}
+
+.kastelli{width: 440px;
+    height: 315px;}
+
+.hotel2{list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;}
+
+/*Zona turistica santorini*/
+.vinosantorini{
+    width: 100px;
+    height: 315px;}
+
+.vinosanto{list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;}
+
+.mapavino{margin-left: 30px;}
+
+.museo{
+    width: 280px;
+    height: 315px;}
+
+.museotera{
+    list-style: none;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;}
+
+.mapamuseo{margin-left: 30px;}
+
+.playarojasantorini{}
+
+.playaroja{list-style: none;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+    text-align: center;}
+
+.mapaplaya{margin-left: 30px;}
+
+.gridzonatur img{height: 100%;
+    width: 100%;}
+
+.gridzonatur{display: grid;
+grid-template-areas: 
+"img1    img2    img3"
+"texto1  texto2  texto3"
+"mapa1   mapa2   mapa3";
+grid-template-columns: 0,33% 0,33% 0,33%;
+grid-template-rows: 315px 150px 300px;}
+
+.vinosantorini{grid-area: img1;}
+.vinosanto{grid-area: texto1;}
+.mapamuseo{grid-area: mapa1;}
+
+.museo{grid-area: img2;}
+.museotera{grid-area: texto2;}
+.mapamuseo{grid-area: mapa2;}
+
+.playarojasantorini{grid-area:img3;}
+.playaroja{grid-area: texto3;}
+.mapaplaya{grid-area: mapa3;}
+
+
+
+
+
+
+
+
+.grid img{height: 100%;
+    width: 100%;}
+
+.grid video{height: 100%;
+    width: 100%;}
+
+.grid{display: grid;
+grid-template-areas: 
+"img1    video   img2"
+"texto1    .      texto2"
+"texto1    .     texto2";
+grid-template-columns: 25% 70px 20%;
+grid-template-rows: 315px 120px 120px;}
+
+.asha{grid-area: img1;}
+
+.kastelli{grid-area: img2;}
+
+.hoteltop{grid-area: video;}
+
+
+
+
+
+
+
+
+/*mobile index*/
+@media screen and (max-width:500px)
+{.banderagrecia{margin-left: 30px}
+.fotosantorini{height: 420px;}
+
+.mapasantorini{margin-left: 0px;
+margin-top: 7px;
+margin-bottom: 7px;}
+.videosantorini{margin-left: 0px;}}
+
+/*mobile comidas*/
+@media  screen and (max-width: 500px)
+{.historiasantorini{margin-left: 0px; margin-bottom: 0px; height: 250px; width: 500px}
+.historia1{margin-left: 0px; width: 500px;}
+.historia2{margin-left: 0px; width: 500px;}
+.historia3{width: 500px;}}
+
+
+/*mobile historia*/ 
