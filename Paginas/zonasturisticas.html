@@ -5,29 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Titulo de la pagina-->
     <title>SANTORINI</title>
+
+ <!--<LINK BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
     <!--Estilos de la pagina-->  
     <link rel="stylesheet" href="../CSS/Estilos.css">
 </head>
 <body>
-    <!--Encabezado del sitio-->
-    <header>
-        <!--Logo de la pagina-->
-        <a href="../index.html"> <img src="../imagenes/banderagrecia.png" class="banderagrecia" alt="banderagrecia"></a>
+   <!--Encabezado del sitio-->
+   <header>
 
-        <!--Menu de navegacion-->
-        <nav>
-            <ul>
-                <li><a href="../Paginas/historia.html">Historia</a></li>
-                <li><a href="../Paginas/hoteles.html">Hoteles</a></li>
-                <li><a href="../Paginas/comidas.html">Comidas</a></li>
-                <li><a href="#">Zonas turisticas</a></li>
-            </ul>
-        </nav>
-    </header>
+    <!--Menu de navegacion-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary barra">
+        <div class="container-fluid barranav">
+          <a class="navbar-brand" href="../index.html"><img src="../imagenes/banderagrecia.png" class="banderagrecia"></a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="padretexto collapse navbar-collapse d-flex justify-content-around" id="navbarNavAltMarkup">
+            <a href="../Paginas/historia.html">Historia</a>
+            <a href="../Paginas/hoteles.html">Hoteles</a>
+            <a href="../Paginas/comidas.html">Comidas</a>
+           <a href="#">Zonas turisticas</a>
+          </div>
+        </div>
+    </nav>
+</header>
 
     <main>
     <section class="gridzonatur">
-    <img src="../imagenes/Vino santo.png" class="vinosantorini" alt="Imagen copa de vino santorini--">
+    <img src="../imagenes/Vino santo.png" class="vinosantorini" alt="Imagen copa de vino santorini">
     <ul class="vinosanto"> 
         <li><h1>Vino blanco de la isla de Santorini</h1></li>
         <li>Precios: 150 - 300 dolares</li> 
@@ -47,9 +57,9 @@
         <li>Redes sociales</li>
         <li>Servicios que ofrecen</li>
     </ul>
-    <iframe class="mapamuseo" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12841.901225881!2d25.414590087158196!3d36.42188800000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1499cdd2f0b38a11%3A0x764182ff18ab0d40!2sMuseo%20de%20Prehistoria%20de%20Thera!5e0!3m2!1ses!2scl!4v1699307963163!5m2!1ses!2scl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-    <img src="../imagenes/playaroja.jpg" class="playarojasantorini" alt="Imagen playa roja santorini--">
+    <iframe class="mapamuseo" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12842.77570467365!2d25.4326538!3d36.4165999!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1499cdd2f0b38a11%3A0x764182ff18ab0d40!2sMuseo%20de%20Prehistoria%20de%20Thera!5e0!3m2!1ses!2scl!4v1699544558041!5m2!1ses!2scl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>   
+   
+    <img src="../imagenes/playaroja.jpg" class="playarojasantorini" alt="Imagen playa roja santorini">
     <ul class="playaroja"> 
         <li><h1>Red Beach Santorini</h1></li>
         <li>Precios: 150 - 300 dolares</li> 
@@ -68,3 +78,8 @@
         <a class="footersantorini" href="../index.html"> SANTORINI</a>
         </div>
     </footer>
+
+  <!--LINK BS JAVA-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body> 
+</html>
