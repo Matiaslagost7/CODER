@@ -1,3 +1,8 @@
+<!--link tipos de letras-->
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Dancing+Script&family=Libre+Baskerville&family=Merriweather:wght@300&display=swap');
+</style>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -13,42 +18,56 @@
     <link rel="stylesheet" href="../CSS/Estilos.css">
 </head>
 <body>
-   <!--Encabezado del sitio-->
    <header>
+  <!--Menu de navegacion-->
+ <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top rounded-5 barra1">
+  <div class="container-fluid rounded-5 barra2">
+    <a class="navbar-brand" href="../index.html"><img src="../imagenes/banderagrecia.png" class="banderagrecia"></a>
 
-    <!--Menu de navegacion-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary barra">
-        <div class="container-fluid barranav">
-          <a class="navbar-brand" href="../index.html"><img src="../imagenes/banderagrecia.png" class="banderagrecia"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+    <div class="barra3 collapse navbar-collapse" id="navbarNav">
+      <ul class=" barra4 navbar-nav">
 
-          <div class="padretexto collapse navbar-collapse d-flex justify-content-around" id="navbarNavAltMarkup">
-            <a href="#">Historia</a></li>
-            <a href="../Paginas/hoteles.html">Hoteles</a>
-            <a href="../Paginas/comidas.html">Comidas</a>
-            <a href="../Paginas/zonasturisticas.html">Zonas turisticas</a>
-          </div>
-        </div>
-    </nav>
+        <li class="nav-item">
+          <a class="nav-link"  href="../Paginas/historia.html"> <h5>Historia</h5></a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="../Paginas/hoteles.html"> <h5>Hoteles</h5></a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#"><h5>Comidas</h5></a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="../paginas/zonasturisticas.html" ><h5>Zonas turisticas</h5></a>
+        </li>
+      </ul>
+    </div>
 </header>
 
     <main>
-    <!--Videos y fotos historia-->  
-    <iframe width="880" height="400" class=videosantorini src="https://www.youtube.com/embed/ehwpai9p7dA?si=6zkLtXEKLSHbeL-B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    <img src="../imagenes/Historia1.jpg" class="historia1" alt="historia1">
-    <img src="../imagenes/Historia2.jpg" class="historia2" alt="historia2">
-    <img src="../imagenes/Historia3.jpg" class="historia3" alt="historia3">
-    </main>
+    <!--Video historia-->  
+    <div><iframe width="880" height="400" class=videohistoriasantorini src="https://www.youtube.com/embed/ehwpai9p7dA?si=6zkLtXEKLSHbeL-B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-    <footer>
-        <!--Parrafo-->
-        <div class="footerfooter">
-        <a class="footersantorini" href="../index.html"> SANTORINI</a>
-        </div>
-    </footer>
+   <!--Direccion de santorini-->
+   <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d102754.70000128998!2d25.420630850000002!3d36.40715385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1499ce86adfd9ff7%3A0xb2a761f740d68afc!2sSantorini!5e0!3m2!1ses!2scl!4v1696112933163!5m2!1ses!2scl" class="mapasantorini" width="500" height="280" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  
+   <!--Video de santorini-->
+   <iframe width="500" height="280" src="https://www.youtube.com/embed/uWxLQHFt8mE?si=WariRgv1YAp-sHVq" class="videosantorini" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    
+   </main>
+  
+
+<footer class="rounded-5">
+      <!--Parrafo-->
+      <div class="footer1">
+      <a class="letrafooter1" href="../index.html"> SANTORINI</a>
+      </div>
+</footer>
 
     <!--LINK BS JAVA-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>

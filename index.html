@@ -1,87 +1,48 @@
+<!--link tipos de letras-->
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Dancing+Script&family=Libre+Baskerville&family=Merriweather:wght@300&display=swap');
+</style>
+  
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Titulo de la pagina-->
-    <title>SANTORINI</title>
-
-    <!--<LINK BS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
-    <!--CSS de la pagina-->  
-    <link rel="stylesheet" href="./CSS/Estilos.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+<!--Titulo de la pagina-->
+<title>SANTORINI</title>
+  
+<!--<LINK BS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  
+<!--CSS de la pagina-->  
+<link rel="stylesheet" href="./CSS/Estilos.css">
 </head>
-<body>
-    <!--Encabezado del sitio-->
-    <header>
-        <!--Menu de navegacion-->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary barra">
-            <div class="container-fluid barranav">
-              <a class="navbar-brand" href="./index.html"><img src="./imagenes/banderagrecia.png" class="banderagrecia"></a>
 
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
+<body >
+  <div class="container">
+      <div class="row">
+          <div class="col">
+              <div class="position-relative">
+                  <img src="./imagenes/atardecer.jpg" alt="Imagen de fondo" class="imagenindex">
 
-              <div class="padretexto collapse navbar-collapse d-flex justify-content-around" id="navbarNavAltMarkup">
-                    <a href="../Paginas/hoteles.html">HOTELES</a>
-                    <a href="../Paginas/comidas.html">COMIDAS</a>
-                    <a href="../Paginas/zonasturisticas.html">ZONAS TURISTICAS</a>
-                    <a href="../Paginas/historia.html">HISTORIA</a>
+                  <div class="opacidadindex position-absolute top-0 start-0 bg-black opacity-50 d-flex flex-column justify-content-center align-items-center">
+                      <h1 class="tituloindex text-white mb-4 display-1">Santorini</h1>
+                      <h6 class="text-white mb-4">Donde la historia, la gastronomía y la belleza se unen</h6>
+                      <div class="barraindex d-flex justify-content-around">
+                          <button type="button" class="botonindex btn btn-outline-light"><a href="./paginas/historia.html">Historia</a></button>
+                          <button type="button" class="botonindex btn btn-outline-light"><a href="./paginas/hoteles.html">Hoteles</a></button>
+                          <button type="button" class="botonindex btn btn-outline-light"><a href="./paginas/comidas.html">Comidas</a></button>
+                          <button type="button" class="botonindex btn btn-outline-light"><a href="./paginas/zonasturisticas.html">Zonas turisticas</a></button>
+                      </div>
+                  </div>
               </div>
-            </div>
-        </nav>
-    </header>
-
-    
-
-
-    <main>
-    <!--Foto de Santorini-->    
-    <div id="carouselExampleIndicators" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./imagenes/atardecer.jpg" class="atardecersantorini" alt="...">
           </div>
-          <div class="carousel-item">
-            <img src="./imagenes/arquitectura-oia-santorini.jpg" class="fotosantorini" alt="foto de esquina de santorini">
-          </div>
-          <div class="carousel-item">
-            <img src="imagenes/costanera.jpg" class="costanerasantorini" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev botonprev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next botonnext" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
+  </div>
 
-    <!--Direccion de santorini-->
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d102754.70000128998!2d25.420630850000002!3d36.40715385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1499ce86adfd9ff7%3A0xb2a761f740d68afc!2sSantorini!5e0!3m2!1ses!2scl!4v1696112933163!5m2!1ses!2scl" class="mapasantorini" width="500" height="280" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-    <!--Video de santorini-->
-    <iframe width="500" height="280" src="https://www.youtube.com/embed/uWxLQHFt8mE?si=WariRgv1YAp-sHVq" class="videosantorini" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    
-    </main>
-
-    <footer>
-    <!--Parrafo-->
-    <div class="footerfooter">
-    <a class="footersantorini" href="./index.html"> SANTORINI</a>
-    </div>
-    </footer>
-
-    <!--LINK BS JAVA-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <!--LINK BS JAVA-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body> 
 </html>
 
