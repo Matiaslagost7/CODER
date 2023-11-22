@@ -33,19 +33,6 @@ box-sizing: border-box;}
     font-family: 'Dancing Script', cursive;}
 
 
-body {
-    /* Opacidad */
-    background-color: rgb(255, 255, 255);
-        
-    /* Imagen de fondo */
-    background-image: url('../imagenes/fondo11.jpg');
-        
-    /* Tamaño y posición de la imagen de fondo */
-    background-size:auto;
-    background-position: center;
-    background-repeat: no-repeat;}
-
-
 /*footer*/
 footer{background-color: #3f79f0;
     height: 25px;
