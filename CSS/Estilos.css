@@ -226,7 +226,7 @@ footer {
 
 /*grid hoteles*/
 .grid img {
-  height: 315px;
+  height: 500px;
   width: 1275px;
 }
 
@@ -239,7 +239,7 @@ footer {
   display: grid;
   grid-template-areas: "img1    img1" "texto1  video2" "img2     img2" "video1  texto2";
   grid-template-columns: 49% 49%;
-  grid-template-rows: 315px 315px 315px 315px;
+  grid-template-rows: 500px 400px 500px 400px;
   justify-content: center;
   justify-items: center;
   text-align: center;
@@ -254,7 +254,7 @@ footer {
 
 .hotel1 {
   grid-area: texto1;
-  height: 315px;
+  height: 400px;
   width: 480px;
 }
 
@@ -264,11 +264,11 @@ footer {
 
 .hotel2 {
   grid-area: texto2;
-  height: 315px;
+  height: 400px;
   width: 480px;
 }
 
-.hotelathina {
+.hoteladronis {
   grid-area: video2;
 }
 

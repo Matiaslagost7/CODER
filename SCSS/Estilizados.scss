@@ -114,7 +114,7 @@ width: 90%;}
 
 /*grid hoteles*/    
 
-.grid img{height: 315px; width: 1275px;}   
+.grid img{height: 500px; width: 1275px;}   
 .grid video{height: 100%; width: 100%;}
     
 .grid{display: grid;
@@ -124,7 +124,7 @@ width: 90%;}
     "img2     img2"
     "video1  texto2";
     grid-template-columns: 49% 49%;
-    grid-template-rows: 315px  315px 315px 315px;
+    grid-template-rows: 500px  400px 500px 400px;
     justify-content: center;
     justify-items: center;
     text-align: center;
@@ -133,12 +133,12 @@ width: 90%;}
     row-gap: 7px;}
     
 .asha{grid-area: img1;}
-.hotel1{grid-area: texto1; height: 315px; width: 480px;}
+.hotel1{grid-area: texto1; height: 400px; width: 480px;}
     
 .kastelli{grid-area: img2;}
-.hotel2{grid-area: texto2; height: 315px; width: 480px;}
+.hotel2{grid-area: texto2; height: 400px; width: 480px;}
     
-.hotelathina{grid-area: video2;}
+.hoteladronis{grid-area: video2;}
 .hotelkastelli{grid-area: video1;}
 
 /*Zona turistica santorini*/
