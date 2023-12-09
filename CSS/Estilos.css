@@ -245,18 +245,15 @@ header .barra4 a {
     margin-bottom: 5px;
     row-gap: 7px;
   }
-  /* Remove grid-area assignments for mobile */
   .asha,
   .kastelli,
   .hoteladronis,
   .hotelkastelli {
     grid-area: auto;
   }
-  /* Set full width for images on mobile */
   .grid img {
     width: 470px;
   }
-  /* Adjust width for text boxes to accommodate margin on mobile */
   .hotel1,
   .hotel2 {
     width: 80%;
