@@ -1,9 +1,8 @@
 /*grid hoteles*/    
-
-.grid img{height: 500px; width: 1275px;}   
-.grid video{height: 100%; width: 100%;}
+.gridhoteles img{height: 500px; width: 1020px;}   
+.gridhoteles video{height: 100%; width: 100%;}
     
-.grid{display: grid;
+.gridhoteles{display: grid;
     grid-template-areas: 
     "img1    img1"
     "texto1  video2"
@@ -18,11 +17,11 @@
     margin-bottom: 5px;
     row-gap: 7px;}
     
-.asha{grid-area: img1;}
-.hotel1{grid-area: texto1; height: 400px; width: 480px;}
+.asha{grid-area: img1; margin-right: 0px;}
+.hotel1{grid-area: texto1; height: 400px; width: 480px; margin-left: 180px;}
     
 .kastelli{grid-area: img2;}
-.hotel2{grid-area: texto2; height: 400px; width: 480px;}
+.hotel2{grid-area: texto2; height: 400px; width: 480px; margin-right: 180px;}
     
-.hoteladronis{grid-area: video2;}
-.hotelkastelli{grid-area: video1;}
+.hoteladronis{grid-area: video2; margin-right: 255px;}
+.hotelkastelli{grid-area: video1; margin-left: 255px;}

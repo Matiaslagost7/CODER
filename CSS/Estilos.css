@@ -143,12 +143,12 @@ header .barra4 a {
 }
 
 /*grid historia*/
-.grid video {
+.gridhistoria video {
   height: 100%;
   width: 100%;
 }
 
-.grid img {
+.gridhistoria img {
   height: 100%;
   width: 100%;
 }
@@ -181,21 +181,21 @@ header .barra4 a {
 /*mobile index*/
 @media screen and (max-width: 500px) {
   .imagenindex {
-    width: 100%;
-    height: 950px;
+    max-width: 100%;
+    max-height: 100%;
   }
   .opacidadindex {
-    width: 100%;
-    height: 950px;
+    max-width: 100%;
+    max-height: 100%;
   }
   .barraindex {
-    width: 100%;
+    max-width: 95%;
   }
 }
 /*mobile header*/
 @media screen and (max-width: 500px) {
   .barra1 {
-    width: 490px;
+    max-width: 490px;
     margin-left: 0px;
   }
 }
@@ -209,56 +209,70 @@ header .barra4 a {
     justify-content: center;
     justify-items: center;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 65px;
     margin-bottom: 5px;
     row-gap: 7px;
   }
   .videohistoriasantorini {
-    width: 470px;
+    max-width: 470px;
   }
   .videosantorini {
-    width: 470px;
+    max-width: 470px;
   }
   .mapasantorini {
-    width: 470px;
-    margin-left: -500px;
+    max-width: 470px;
   }
 }
 /*mobile comidas*/
 @media screen and (max-width: 500px) {
   .tarjetas {
-    margin-left: 5px;
+    margin-left: 0px;
+    width: 100%;
+  }
+  .comida {
+    width: 93%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .mapaplaya {
+    width: 99%;
+  }
+  .mapamuseo {
+    width: 99%;
+  }
+  .mapavino {
     width: 99%;
   }
 }
 /*mobile hoteles*/
-@media screen and (max-width: 500px) {
-  .gridhoteles {
-    display: grid;
-    grid-template-areas: "img1" "texto1" "img2" "texto2" "video1" "video2";
-    grid-template-columns: 100%;
-    grid-template-rows: auto auto auto auto auto auto;
+/*.gridhoteles img{height: 100%; max-width: 950px;}   
+.gridhoteles video{height: 100%; max-width: 495px;}
+
+.gridhoteles{display: grid;
+    grid-template-areas: 
+    "img1"
+    "texto1" 
+    "video2"
+    "img2"
+    "video1"
+    "texto2";
+    grid-template-columns: 90%;
+    grid-template-rows: 650px  400px 650px 400px 650px 400px;
     justify-content: center;
     justify-items: center;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 65px;
     margin-bottom: 5px;
-    row-gap: 7px;
-  }
-  .asha,
-  .kastelli,
-  .hoteladronis,
-  .hotelkastelli {
-    grid-area: auto;
-  }
-  .grid img {
-    width: 470px;
-  }
-  .hotel1,
-  .hotel2 {
-    width: 80%;
-  }
-}
+    row-gap: 7px;}
+
+.asha{grid-area: img1;}
+.hotel1{grid-area: texto1; margin-right: 200px; width: 450px;}
+
+.kastelli{grid-area: img2;}
+.hotel2{grid-area: texto2; margin-left: 200px; width: 450px;}
+
+.hoteladronis{grid-area: video2; margin-left: 270px; width: 455px;}
+.hotelkastelli{grid-area: video1; margin-right: 270px; width: 455px;}*/
 /*Zona turistica santorini*/
 .vinosantorini {
   height: 450px;
@@ -300,17 +314,17 @@ header .barra4 a {
 }
 
 /*grid hoteles*/
-.grid img {
+.gridhoteles img {
   height: 500px;
-  width: 1275px;
+  width: 1020px;
 }
 
-.grid video {
+.gridhoteles video {
   height: 100%;
   width: 100%;
 }
 
-.grid {
+.gridhoteles {
   display: grid;
   grid-template-areas: "img1    img1" "texto1  video2" "img2     img2" "video1  texto2";
   grid-template-columns: 49% 49%;
@@ -325,12 +339,14 @@ header .barra4 a {
 
 .asha {
   grid-area: img1;
+  margin-right: 0px;
 }
 
 .hotel1 {
   grid-area: texto1;
   height: 400px;
   width: 480px;
+  margin-left: 180px;
 }
 
 .kastelli {
@@ -341,80 +357,83 @@ header .barra4 a {
   grid-area: texto2;
   height: 400px;
   width: 480px;
+  margin-right: 180px;
 }
 
 .hoteladronis {
   grid-area: video2;
+  margin-right: 255px;
 }
 
 .hotelkastelli {
   grid-area: video1;
+  margin-left: 255px;
 }
 
 /*index*/
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 501px) and (max-width: 978px) {
   .imagenindex {
-    width: 1024px;
-    height: 1366;
+    max-width: 978px;
+    height: 100%;
   }
   .opacidadindex {
-    width: 1024px;
-    height: 1366px;
+    max-width: 978px;
+    height: 100%;
   }
   .barraindex {
-    width: 100%;
+    max-width: 978px;
   }
 }
 /*header*/
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 501px) and (max-width: 978px) {
   .barra1 {
-    width: 1016px;
+    max-width: 978px;
     margin-left: 0px;
   }
 }
 /*footer*/
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 501px) and (max-width: 978px) {
   .footerf {
     margin-top: 0px;
   }
 }
 /*body historia*/
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 501px) and (max-width: 978px) {
   .gridhistoria {
     display: grid;
     grid-template-areas: "video1 video1" "mapa1 video2";
-    grid-template-columns: 50%;
-    grid-template-rows: auto auto auto;
+    grid-template-columns: 49% 49%;
+    grid-template-rows: auto auto;
     justify-content: center;
     justify-items: center;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 65px;
     margin-bottom: 5px;
     row-gap: 7px;
   }
   .videohistoriasantorini {
-    width: 1000px;
+    max-width: 978px;
   }
   .videosantorini {
-    width: 470px;
+    max-width: 470px;
   }
   .mapasantorini {
-    width: 470px;
+    max-width: 470px;
   }
 }
 /*mobile comidas*/
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 501px) and (max-width: 978px) {
   .tarjetas {
     margin-left: 5px;
     width: 99%;
     margin-bottom: 10px;
   }
   .comida {
-    width: 270px;
+    max-width: 265px;
   }
 }
 /*zona turistica*/
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 501px) and (max-width: 978px) {
   .mapaplaya {
     width: 270px;
   }
@@ -425,44 +444,53 @@ header .barra4 a {
     width: 270px;
   }
 }
-/*mobile hoteles*/
-@media screen and (max-width: 1024px) {
+/*hoteles*/
+@media screen and (min-width: 501px) and (max-width: 978px) {
+  .gridhoteles img {
+    height: 100%;
+    max-width: 950px;
+  }
+  .gridhoteles video {
+    height: 100%;
+    max-width: 495px;
+  }
   .gridhoteles {
     display: grid;
-    grid-template-areas: "img1 img1" "texto1 video1" "img2 img2" "texto2 video2";
+    grid-template-areas: "img1 img1" "texto1 video2" "img2  img2" "video1 texto2";
     grid-template-columns: 49% 49%;
-    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-rows: 650px 400px 650px 400px;
     justify-content: center;
     justify-items: center;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 65px;
     margin-bottom: 5px;
     row-gap: 7px;
-  }
-  .grid img {
-    width: 980px;
   }
   .asha {
     grid-area: img1;
   }
   .hotel1 {
     grid-area: texto1;
-    height: 400px;
-    width: 480px;
+    margin-right: 200px;
+    width: 450px;
   }
   .kastelli {
     grid-area: img2;
   }
   .hotel2 {
     grid-area: texto2;
-    height: 400px;
-    width: 480px;
+    margin-left: 200px;
+    width: 450px;
   }
   .hoteladronis {
     grid-area: video2;
+    margin-left: 270px;
+    width: 455px;
   }
   .hotelkastelli {
     grid-area: video1;
+    margin-right: 270px;
+    width: 455px;
   }
 }
 /*footer*/
