@@ -16,7 +16,7 @@
 
 /*footer*/
 @media screen and (max-width:500px){
-.footerf{width: 99%; margin-left: 1px;}}
+.footerf{width: 99%; margin-left: 2px;}}
 
 /*mobile body historia*/
 @media screen and (max-width: 500px) 
@@ -60,14 +60,14 @@
         "img2"
         "texto2";
         grid-template-columns: 100%;
-        grid-template-rows: 425px 600px 425px 600px;
+        grid-template-rows: 225px 600px 425px 600px;
     }
 
-    .asha {max-width: 95%;}
+    .asha {max-width: 95%; max-height: 300px;}
     .hotel1 {width: 490px; padding: 50%; text-decoration: none;}
     .hoteladronis {display: none;}
 
-    .kastelli {max-width: 95%;}
+    .kastelli {max-width: 95%; max-height: 300px;}
     .hotel2 {width: 100%; padding: 50%;}
     .hotelkastelli {display: none;}
 }

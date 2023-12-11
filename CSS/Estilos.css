@@ -211,7 +211,7 @@ header .barra4 a {
 @media screen and (max-width: 500px) {
   .footerf {
     width: 99%;
-    margin-left: 1px;
+    margin-left: 2px;
   }
 }
 /*mobile body historia*/
@@ -264,10 +264,11 @@ header .barra4 a {
   .gridhoteles {
     grid-template-areas: "img1" "texto1" "img2" "texto2";
     grid-template-columns: 100%;
-    grid-template-rows: 425px 600px 425px 600px;
+    grid-template-rows: 225px 600px 425px 600px;
   }
   .asha {
     max-width: 95%;
+    max-height: 300px;
   }
   .hotel1 {
     width: 490px;
@@ -279,6 +280,7 @@ header .barra4 a {
   }
   .kastelli {
     max-width: 95%;
+    max-height: 300px;
   }
   .hotel2 {
     width: 100%;
