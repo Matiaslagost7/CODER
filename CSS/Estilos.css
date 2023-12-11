@@ -203,6 +203,16 @@ header .barra4 a {
     max-width: 490px;
     margin-left: 0px;
   }
+  .navbar-toggler {
+    margin-right: 10px;
+  }
+}
+/*footer*/
+@media screen and (max-width: 500px) {
+  .footerf {
+    width: 99%;
+    margin-left: 1px;
+  }
 }
 /*mobile body historia*/
 @media screen and (max-width: 500px) {
@@ -252,34 +262,30 @@ header .barra4 a {
 /*mobile hoteles*/
 @media screen and (max-width: 500px) {
   .gridhoteles {
-    display: grid;
-    grid-template-areas: "img1" "texto1" "video2" "img2" "texto2" "video1";
+    grid-template-areas: "img1" "texto1" "img2" "texto2";
     grid-template-columns: 100%;
-    grid-template-rows: 500px 368px 400px 500px 368px 400px;
-    justify-content: center;
-    justify-items: center;
-    text-align: center;
-    margin-top: 65px;
-    margin-bottom: 5px;
-    row-gap: 7px;
+    grid-template-rows: 425px 600px 425px 600px;
   }
   .asha {
     max-width: 95%;
   }
   .hotel1 {
-    width: 450px;
+    width: 490px;
+    padding: 50%;
+    text-decoration: none;
   }
   .hoteladronis {
-    width: 100%;
+    display: none;
   }
   .kastelli {
     max-width: 95%;
   }
   .hotel2 {
-    width: 450px;
+    width: 100%;
+    padding: 50%;
   }
   .hotelkastelli {
-    width: 95%;
+    display: none;
   }
 }
 /*Zona turistica santorini*/
@@ -524,4 +530,4 @@ footer {
   font-family: "Dancing Script", cursive;
 }
 
-/*# sourceMappingURL=estilos.css.map */
+/*# sourceMappingURL=Estilos.css.map */
