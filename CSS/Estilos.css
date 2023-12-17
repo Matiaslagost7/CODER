@@ -32,7 +32,6 @@ header .barra1 .barra2 a {
   font-family: "Dancing Script", cursive;
 }
 header .barra1 .barra2 a .banderagrecia {
-  background-image: url(../imagenes/banderagrecia.png);
   background-repeat: no-repeat;
   background-position: center;
   height: 1.1cm;
