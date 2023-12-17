@@ -9,10 +9,8 @@
 /*mobile header*/
 @media screen and (max-width:500px)
 {.barra1{max-width: 490px; margin-left: 0px;}
-//.banderagrecia{margin-left: 10px; height: 1cm; width: 1.5cm;}
-.navbar-toggler{margin-right: 10px;}
-}
-
+header{.barra1{.barra2{a{.banderagrecia{margin-left: 10px; width: 90%;}}}}}
+.navbar-toggler{margin-right: 10px;}}
 
 /*footer*/
 @media screen and (max-width:500px){
@@ -43,7 +41,7 @@
 /*mobile comidas*/
 @media screen and (max-width: 500px) 
 {.tarjetas{margin-left: 0px; width: 100%;}
-.comida{width: 93%;}}
+.comida{width: 100%;}}
 
 @media screen and (max-width: 500px) 
 {.mapaplaya{width: 99%;}
@@ -60,8 +58,7 @@
         "img2"
         "texto2";
         grid-template-columns: 100%;
-        grid-template-rows: 225px 600px 425px 600px;
-    }
+        grid-template-rows: 225px 600px 425px 600px;}
 
     .asha {max-width: 95%; max-height: 300px;}
     .hotel1 {width: 490px; padding: 50%; text-decoration: none;}

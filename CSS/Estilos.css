@@ -212,6 +212,10 @@ header .barra4 a {
     max-width: 490px;
     margin-left: 0px;
   }
+  header .barra1 .barra2 a .banderagrecia {
+    margin-left: 10px;
+    width: 90%;
+  }
   .navbar-toggler {
     margin-right: 10px;
   }
@@ -254,7 +258,7 @@ header .barra4 a {
     width: 100%;
   }
   .comida {
-    width: 93%;
+    width: 100%;
   }
 }
 @media screen and (max-width: 500px) {
