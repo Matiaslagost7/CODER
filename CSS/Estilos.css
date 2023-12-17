@@ -274,32 +274,23 @@ header .barra4 a {
 }
 /*mobile hoteles*/
 @media screen and (max-width: 500px) {
-  .gridhoteles {
+  main .gridhoteles {
     grid-template-areas: "img1" "texto1" "img2" "texto2";
     grid-template-columns: 100%;
-    grid-template-rows: 225px 600px 425px 600px;
+    grid-template-rows: 300px 400px 300px 470px;
   }
-  .asha {
+  main .asha {
     max-width: 95%;
     max-height: 300px;
   }
-  .hotel1 {
-    width: 490px;
-    padding: 50%;
-    text-decoration: none;
-  }
-  .hoteladronis {
+  main .hoteladronis {
     display: none;
   }
-  .kastelli {
+  main .kastelli {
     max-width: 95%;
     max-height: 300px;
   }
-  .hotel2 {
-    width: 100%;
-    padding: 50%;
-  }
-  .hotelkastelli {
+  main .hotelkastelli {
     display: none;
   }
 }
